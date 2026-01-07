@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PokeAPI Pokémon Kartları</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <button id="themeBtn">🌙 Dark Mode</button>
+
+      <h1>Pokémon Kart Uygulaması</h1>
+      <p>PokeAPI kullanılarak Pokémon verileri listelenmektedir.</p>
+    </header>
+
+    <!-- ARAMA -->
+    <section class="search">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Pokémon adı giriniz (pikachu)"
+      />
+      <button id="searchBtn">Ara</button>
+    </section>
+
+    <!-- DURUM MESAJI -->
+    <p id="statusMessage"></p>
+
+    <!-- KART LİSTESİ -->
+    <section id="cardContainer"></section>
+
+    <!-- DETAY -->
+    <section id="detailSection"></section>
+
+    <!-- HAKKIMIZDA -->
+    <section class="about">
+      <h2>Hakkımızda</h2>
+      <p>Bu proje JavaScript fetch API kullanılarak geliştirilmiştir.</p>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section class="contact">
+      <h2>İletişim</h2>
+      <p>Email: info@pokemonapp.com</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
